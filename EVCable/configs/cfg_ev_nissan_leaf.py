@@ -6,7 +6,7 @@ Created on Fri Jan  4 11:15:26 2019
 @author: suliang
 """
 
-# vehicle
+# model
 vehicle=dict(
     type = 'EV',
     vehicle_name = 'NissanLeaf',
@@ -15,20 +15,21 @@ vehicle=dict(
     length = 2.5,
     width = 2.6,
     cd = 0.23,
-    wheel_radia = 0.85
-    )
+    
+    battery=dict(
+        type='Battery',
+        capacity=45),
+    
+    motor = dict(
+        type='Motor',
+        radium=0.85),
 
-battery=dict(
-    type='',
-    capacity=45,
-    )
+    drive_cycle=dict(
+        type='DriveCycle',
+        size=35)
+)
 
-wheel = dict(
-    radium=0.85)
 
-connector=dict(
-    type='AK',
-    size=35)
 
-cable=dict(size=35)
+
 # 

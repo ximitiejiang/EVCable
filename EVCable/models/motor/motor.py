@@ -9,4 +9,5 @@ Created on Sat Jan  5 15:15:52 2019
 class Motor():
     
     def __init__(self):
-        pass
+        motor_type = 'PMSM'
+        print('this is {} motor!'.format(motor_type))
