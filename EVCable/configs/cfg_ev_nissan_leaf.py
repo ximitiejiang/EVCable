@@ -28,6 +28,7 @@ vehicle=dict(
         type='DriveCycle',
         size=35)
 )
+run_config=dict(interval=0.01)
 
 
 
